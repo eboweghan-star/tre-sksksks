@@ -4,6 +4,7 @@ import { Header } from './Header'
 
 const pageTitles: Record<string, string> = {
   '/': 'Dashboard',
+  '/loader': 'Loader',
   '/users': 'Users',
   '/system': 'System',
   '/logs': 'Logs',

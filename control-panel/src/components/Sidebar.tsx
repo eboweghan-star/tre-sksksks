@@ -6,10 +6,12 @@ import {
   Server,
   ScrollText,
   SlidersHorizontal,
+  Zap,
 } from 'lucide-react'
 
 const navItems = [
   { to: '/', label: 'Dashboard', icon: LayoutDashboard },
+  { to: '/loader', label: 'Loader', icon: Zap },
   { to: '/users', label: 'Users', icon: Users },
   { to: '/system', label: 'System', icon: Server },
   { to: '/logs', label: 'Logs', icon: ScrollText },
