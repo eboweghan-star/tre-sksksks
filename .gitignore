@@ -1,2 +1,8 @@
 *.agdai
 **/MAlonzo/**
+
+# Build output
+dist/
+launcher/web/*
+!launcher/web/.gitkeep
+control-panel/dist/
