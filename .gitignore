@@ -3,6 +3,6 @@
 
 # Build output
 dist/
-launcher/web/*
+launcher/web/**
 !launcher/web/.gitkeep
 control-panel/dist/
